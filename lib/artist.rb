@@ -33,7 +33,7 @@ class Artist
   end
 
   def print_songs #just need to rpint out all of the names of the songs. iterate through array of @songs and turn into string?
-    @songs.each {|songinstance| puts songinstance.name}
+    @songs.each {|songinstance| puts songinstance.name} #collab objects!
   end
 
 end
